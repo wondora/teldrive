@@ -1,0 +1,4 @@
+App api_id: 22733855
+App api_hash: ece460517edbbd484234380dc3290ead
+App title: teldrive
+Short name: teldrive

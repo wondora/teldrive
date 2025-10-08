@@ -1,0 +1,16 @@
+[db]
+  data-source = "postgresql://postgres.ihnwevfrdibgfsmdhmls:3895ccw@aws-1-us-east-1.pooler.supabase.com:5432/postgres" #supabase 접속 주소
+  prepare-stmt = false
+  [db.pool]
+    enable = false
+    max-idle-connections = 25
+    max-lifetime = "10m"
+    max-open-connections = 25
+
+[jwt]
+  secret = "936a787eaddafe862c4263a282174fe182c372ebd46aaec0f8d83437eb142a14" #openssl로 생성한 키
+
+[tg]
+  app-id = 22733855 #텔레그램 app id
+  app-hash = "ece460517edbbd484234380dc3290ead" #텔레그램 app hash 
+  
